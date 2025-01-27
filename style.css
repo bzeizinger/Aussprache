@@ -15,6 +15,9 @@ body {
   font-size: 25px;
   overflow-x: hidden;
   overflow-y: hidden;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 
 a {
@@ -81,6 +84,7 @@ main {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  text-align: center;
   height: 100vh;
   width: 100vw;
 }
@@ -130,6 +134,9 @@ main {
   height: 250px;
   width: 500px;
   border-radius: 250px 250px 0 0;
+  border-top: solid 5px #101010;
+  border-left: solid 5px #101010;
+  border-right: solid 5px #101010;
   background-color: #5050ff;
   pointer-events: auto;
   display: flex;
@@ -158,4 +165,14 @@ semi-div {
 
 .french {
   border-left: solid 2.5px #101010;
+}
+
+.overlay_btn {
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000;
 }/*# sourceMappingURL=style.css.map */

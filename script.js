@@ -9,3 +9,7 @@ function home() {
 function backIntro() {
     window.location.href = "/index.html"
 }
+
+function logout() {
+    window.location.href = "/index.html"
+}
