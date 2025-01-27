@@ -1,0 +1,10 @@
+{
+    "name": "Aussprache",
+    "short_name": "Aussprache",
+    "theme_color": "#101010",
+    "background_color": "#fafafa",
+    "display": "fullScreen",
+    "orientation": "landscape",
+    "scope": "/pages",
+    "start_url": "/index.html"
+}

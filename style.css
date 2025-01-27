@@ -47,13 +47,13 @@ header span {
 }
 
 footer {
-  height: 175px;
+  height: 150px;
   width: 100vw;
   padding: 25px;
 }
 footer button {
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
   background-color: #101010;
   color: #fafafa;
   border: none;
@@ -64,8 +64,10 @@ footer button {
 }
 
 main {
-  height: calc(100vh - 350px);
+  height: calc(100vh - 300px);
   width: 100vw;
+  display: flex;
+  flex-direction: row;
 }
 
 .start {
@@ -89,7 +91,7 @@ main {
   border: none;
   border-radius: 21.875px;
   background-color: #101010;
-  color: #ffffff;
+  color: #fafafa;
   cursor: pointer;
 }
 
@@ -110,4 +112,20 @@ main {
   width: 750px;
   border-radius: 375px 375px 0 0;
   background-color: #5050ff;
+}
+
+.site {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+}
+
+.german {
+  background-color: #bbffbb;
+}
+
+.french {
+  background-color: #ffbbbb;
 }/*# sourceMappingURL=style.css.map */

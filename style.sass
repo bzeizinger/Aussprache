@@ -10,14 +10,9 @@
 
 $bg: #fafafa
 $main: #101010
-$red: #ff5050
-$green: #50ff50
+$red: #ffbbbb
+$green: #bbffbb
 $blue: #5050ff
-$yellow: #ffff50
-$pink: #ff50ff
-$cyan: #50ffff
-$white: #ffffff
-$black: #000000
 
 body
     padding: 0
@@ -56,13 +51,13 @@ header
         font-size: 100px
 
 footer
-    height: 175px
+    height: 150px
     width: 100vw
     padding: 25px
 
     button
-        height: 150px
-        width: 150px
+        height: 100px
+        width: 100px
         background-color: $main
         color: $bg
         border: none
@@ -72,8 +67,10 @@ footer
         margin-left: 25px
 
 main
-    height: calc( 100vh - 350px )
+    height: calc( 100vh - 300px )
     width: 100vw
+    display: flex
+    flex-direction: row
 
 .start
     display: flex
@@ -96,7 +93,7 @@ main
         border: none
         border-radius: 21.875px
         background-color: $main
-        color: $white
+        color: $bg
         cursor: pointer
 
 .overlay
@@ -115,3 +112,16 @@ main
     width: 750px
     border-radius: 375px 375px 0 0
     background-color: $blue
+
+.site
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+    width: 50%
+
+.german
+    background-color: $green
+
+.french
+    background-color: $red
