@@ -29,12 +29,29 @@ button {
   color: #fafafa;
 }
 
+header {
+  height: 100px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  padding: 25px;
+}
+header img {
+  height: 100px;
+  width: 100px;
+}
+header span {
+  font-size: 100px;
+}
+
 .start {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 100vh;
+  height: calc(100vh - 150px);
   width: 100vw;
 }
 .start span {
