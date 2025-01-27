@@ -1,1 +1,55 @@
-@font;/*# sourceMappingURL=style.css.map */
+@font-face {
+  font-family: "SourGummy";
+  src: url("/assets/fonts/SourGummy-VariableFont_wdth,wght.ttf");
+}
+@font-face {
+  font-family: "SourGummyItalic";
+  src: url("/assets/fonts/SourGummy-Italic-VariableFont_wdth,wght.ttf");
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #fafafa;
+  color: #101010;
+  font-family: "SourGummy";
+  font-size: 18px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+a {
+  color: #101010;
+  text-decoration: none;
+  font-family: "SourGummyItalic";
+  font-size: 18px;
+}
+
+button {
+  background-color: #101010;
+  color: #fafafa;
+}
+
+.start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+.start span {
+  font-size: 250px;
+  font-family: "SourGummyItalic";
+  margin: 50px;
+}
+.start button {
+  font-family: "SourGummyItalic";
+  font-size: 125px;
+  margin: 50px;
+  padding: 25px;
+  border: none;
+  border-radius: 21.875px;
+  background-color: #101010;
+  color: #ffffff;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
