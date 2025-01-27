@@ -12,7 +12,7 @@ body {
   background-color: #fafafa;
   color: #101010;
   font-family: "SourGummy";
-  font-size: 18px;
+  font-size: 25px;
   overflow-x: hidden;
   overflow-y: hidden;
 }
@@ -46,6 +46,9 @@ header img {
   width: 75px;
 }
 header span {
+  font-size: 75px;
+}
+header a {
   font-size: 75px;
 }
 header button {
@@ -129,6 +132,14 @@ main {
   border-radius: 250px 250px 0 0;
   background-color: #5050ff;
   pointer-events: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+semi-div {
+  height: 50%;
+  width: 100%;
 }
 
 .site {
@@ -137,6 +148,8 @@ main {
   align-items: center;
   flex-direction: column;
   width: 50%;
+  padding: 25px;
+  text-align: center;
 }
 
 .german {
