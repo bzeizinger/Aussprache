@@ -79,21 +79,33 @@ main {
   height: calc(100vh - 150px);
   width: 100vw;
 }
-.start span {
-  font-size: 125px;
-  font-family: "SourGummyItalic";
-  margin: 50px;
-}
 .start button {
-  font-family: "SourGummyItalic";
+  font-family: "SourGummy";
   font-size: 75px;
-  margin: 25px;
+  margin: 100px;
   padding: 12.5px;
   border: none;
   border-radius: 21.875px;
   background-color: #101010;
   color: #fafafa;
   cursor: pointer;
+}
+
+.title {
+  font-size: 125px;
+}
+
+.french_title {
+  font-size: 50px;
+  font-family: "SourGummyItalic";
+}
+
+.r {
+  color: #ff5050;
+}
+
+.b {
+  color: #5050ff;
 }
 
 .overlay {
