@@ -46,6 +46,28 @@ header span {
   font-size: 100px;
 }
 
+footer {
+  height: 175px;
+  width: 100vw;
+  padding: 25px;
+}
+footer button {
+  height: 150px;
+  width: 150px;
+  background-color: #101010;
+  color: #fafafa;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+main {
+  height: calc(100vh - 350px);
+  width: 100vw;
+}
+
 .start {
   display: flex;
   justify-content: center;
