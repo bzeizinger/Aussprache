@@ -9,11 +9,11 @@
 
 
 $bg: #fafafa
+$bg_dark: #101010
 $main: #101010
-$red: #ffbbbb
 $redi: #ff5050
 $green: #bbffbb
-$blue: #5050ff
+$blui: #5050ff
 
 body
     padding: 0
@@ -37,12 +37,15 @@ button
     cursor: pointer
 
 header
+    background-color: $bg
+    color: $main
     height: 100px
     width: 100vw
     display: flex
     justify-content: space-around
     align-items: center
     flex-direction: row
+    border-bottom: 5px solid $main
 
     img
         height: 75px
@@ -51,25 +54,24 @@ header
     span
         font-size: 75px
 
-footer
-    height: 100px
-    width: 100vw
-    display: flex
-    align-items: center
-
     button
         height: 75px
         width: 75px
-        background-color: $main
-        color: $bg
+        background-color: $bg
+        color: $main
         border: none
-        border-radius: 100px
         cursor: pointer
         margin-right: 12.5px
         margin-left: 12.5px
 
+.headerdiv
+    width: 33%
+    display: flex
+    align-items: center
+    justify-content: center
+
 main
-    height: calc( 100vh - 200px )
+    height: calc( 100vh - 100px )
     width: 100vw
     display: flex
     flex-direction: row
@@ -79,13 +81,13 @@ main
     justify-content: center
     align-items: center
     flex-direction: column
-    height: calc(100vh - 150px)
+    height: 100vh
     width: 100vw
 
     button
         font-family: "SourGummy"
         font-size: 75px
-        margin: 100px
+        margin: 75px
         padding: 12.5px
         border: none
         border-radius: 21.875px
@@ -104,7 +106,7 @@ main
     color: $redi
 
 .b
-    color: $blue
+    color: $blui
 
 .overlay
     position: fixed
@@ -119,12 +121,10 @@ main
     pointer-events: none
 
 .semi-circle
-    height: 200px
-    width: 400px
-    border-radius: 200px 200px 0 0
-    background-color: $blue
-    -webkit-box-shadow: 0px -50px 50px 0px rgba(16,16,16,0.25)
-    box-shadow: 0px -50px 50px 0px rgba(16,16,16,0.25)
+    height: 250px
+    width: 500px
+    border-radius: 250px 250px 0 0
+    background-color: $blui
     pointer-events: auto
 
 .site
@@ -135,7 +135,7 @@ main
     width: 50%
 
 .german
-    background-color: $green
+    border-right: solid 2.5px $main
 
 .french
-    background-color: $red
+    border-left: solid 2.5px $main
