@@ -1,3 +1,5 @@
+timer_span = document.getElementById("timer")
+
 function start() {
     window.location.href = "/pages/intro.html"
 }

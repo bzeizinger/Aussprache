@@ -9,23 +9,33 @@
     <link rel="manifest" href="/manifest.json">
 
     <script>
+        timer_span = document.getElementById("timer")
+
         function logout() {
             window.location.href = "/index.html"
         }
 
+        function timer() {
+
+        }
+
         function end() {
-            setTimeout(logout, 15000);
-            // console.log("")
+            setTimeout(logout, 15000)
+            timer()
+            console.log("")
         }
     </script>
 </head>
 <body onload="end()">
 
-    <button class="overlay_btn", onclick="logout()"></button>
+    <div class="end">
 
-    <div class="start">
-        <span class="title">Danke, dass du mitgemacht hast!</span>
-        <span class="french_title" style="margin-top: 25px;">Bennet Zeizinger, Niklas Pesch, Yuki Christ</span>
+        <span class="title_small">Danke, dass du mitgemacht hast!</span>
+        <span class="french_title" style="margin-top: 50px;">Bennet Zeizinger: Entwicklung</span>
+        <span class="french_title">Niklas Pesch: Synchronsprecher, Vokabel</span>
+        <span class="french_title">Yuki Christ: Synchronsprecher, Vokabel</span>
+
+        <span id="timer"></span>
     </div>
 
     <script src="script.js"></script>
